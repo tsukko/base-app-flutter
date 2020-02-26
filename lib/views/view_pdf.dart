@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import '../models/db/medicine_database_provider.dart';
 import '../models/medicine.dart';
 import '../util/api_parameter.dart';
-import '../widget/dialog.dart';
 
 class ViewPdf extends StatefulWidget {
   ViewPdf({this.medicine});
@@ -82,11 +80,11 @@ class _ViewPdfState extends State<ViewPdf> {
   }
 
   Future<void> saveToDb() async {
-    final MedicineDatabaseProvider provider = MedicineDatabaseProvider();
-    final a = await provider.insertMedicine(widget.medicine);
-    setState(() {
-      showBasicDialog(context, 'D0003');
-      print('db count: $a');
-    });
+//    final MedicineDatabaseProvider provider = MedicineDatabaseProvider();
+//    final a = await provider.insertMedicine(widget.medicine);
+//    setState(() {
+//      showBasicDialog(context, 'D0003');
+//      print('db count: $a');
+//    });
   }
 }

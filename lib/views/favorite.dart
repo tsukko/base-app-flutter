@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../debug/debug_data.dart';
-import '../models/db/medicine_database_provider.dart';
 import '../models/medicine.dart';
 import '../util/api_parameter.dart';
 import '../widget/dialog.dart';
@@ -20,15 +19,15 @@ class _FavoriteState extends State<Favorite> {
   @override
   void initState() {
     super.initState();
-
-    MedicineDatabaseProvider().getMedicineAll().then((medicineList) {
-      if (!mounted) {
-        return;
-      }
-      setState(() {
-        localData = medicineList;
-      });
-    });
+//
+//    MedicineDatabaseProvider().getMedicineAll().then((medicineList) {
+//      if (!mounted) {
+//        return;
+//      }
+//      setState(() {
+//        localData = medicineList;
+//      });
+//    });
   }
 
   @override

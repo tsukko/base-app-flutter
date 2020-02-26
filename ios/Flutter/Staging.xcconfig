@@ -3,5 +3,5 @@
 TRACK_WIDGET_CREATION=
 
 FLUTTER_FLAVOR=Staging
-PRODUCT_BUNDLE_IDENTIFIER=jp.co.integrityworks.flutter_app123.stg
+PRODUCT_BUNDLE_IDENTIFIER=jp.co.integrityworks.flutterapp123.stg
 DISPLAY_NAME=$(PRODUCT_NAME)-stg

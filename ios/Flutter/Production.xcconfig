@@ -3,5 +3,5 @@
 TRACK_WIDGET_CREATION=
 
 FLUTTER_FLAVOR=Production
-PRODUCT_BUNDLE_IDENTIFIER=jp.co.integrityworks.flutter_app123.prod
+PRODUCT_BUNDLE_IDENTIFIER=jp.co.integrityworks.flutterapp123
 //DISPLAY_NAME=SAMPLE-prod
