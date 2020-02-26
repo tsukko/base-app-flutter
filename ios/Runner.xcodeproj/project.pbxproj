@@ -20,9 +20,6 @@
 		B8D6CDD024068ECD001BEA2F /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B8D6CDCD24068ECC001BEA2F /* Staging.xcconfig */; };
 		B8D6CDD124068ECD001BEA2F /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B8D6CDCE24068ECC001BEA2F /* Development.xcconfig */; };
 		B8D6CDE124068F61001BEA2F /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D6CDDA24068F61001BEA2F /* GeneratedPluginRegistrant.m */; };
-		B8D6CDE324069043001BEA2F /* libkxabarcodereader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D6CDE224069034001BEA2F /* libkxabarcodereader.a */; };
-		B8D6CDE52406905B001BEA2F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D6CDE42406905B001BEA2F /* Accelerate.framework */; };
-		B8D6CDE724069074001BEA2F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D6CDE624069065001BEA2F /* libiconv.tbd */; };
 		B8D6CDE924069135001BEA2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8D6CDE824069135001BEA2F /* GoogleService-Info.plist */; };
 		D69AC45FBA7E287670215B6B /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250E652512CFDD929E3DB83E /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
@@ -63,7 +60,6 @@
 		B8D6CDCC24068ECC001BEA2F /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Production.xcconfig; path = Flutter/Production.xcconfig; sourceTree = "<group>"; };
 		B8D6CDCD24068ECC001BEA2F /* Staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Staging.xcconfig; path = Flutter/Staging.xcconfig; sourceTree = "<group>"; };
 		B8D6CDCE24068ECC001BEA2F /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = Flutter/Development.xcconfig; sourceTree = "<group>"; };
-		B8D6CDD224068F41001BEA2F /* KXABarcodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KXABarcodeReader.h; path = KXABarcodeReaderLibrary/include/KXABarcodeReader.h; sourceTree = SOURCE_ROOT; };
 		B8D6CDD424068F60001BEA2F /* FlutterQrPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlutterQrPlugin.h; sourceTree = "<group>"; };
 		B8D6CDD524068F60001BEA2F /* FlutterQrPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlutterQrPlugin.m; sourceTree = "<group>"; };
 		B8D6CDD724068F60001BEA2F /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -82,11 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D6CDE724069074001BEA2F /* libiconv.tbd in Frameworks */,
 				9705A1C61CF904A100538489 /* Flutter.framework in Frameworks */,
 				3B80C3941E831B6300D905FE /* App.framework in Frameworks */,
-				B8D6CDE52406905B001BEA2F /* Accelerate.framework in Frameworks */,
-				B8D6CDE324069043001BEA2F /* libkxabarcodereader.a in Frameworks */,
 				D69AC45FBA7E287670215B6B /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +148,6 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				B8D6CDD224068F41001BEA2F /* KXABarcodeReader.h */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
