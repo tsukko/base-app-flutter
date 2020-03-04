@@ -1,16 +1,37 @@
 # flutter_app123
 
-A new Flutter application.
+Flutterのビルド構成を自分なりのまとめるために作ったプロジェクト
+Dartのコードは前に作ったバーコード読取りアプリから適当に持ってきて、トップ画面が開くまでしか確認していないです。
+アプリとして正常に動作しないと思われます。
 
-## Getting Started
+## メモ
+Android Studio 3.6
+Flutter 1.12.13
 
-This project is a starting point for a Flutter application.
+Windows10、macOS Catalinaで動く想定
 
-A few resources to get you started if this is your first Flutter project:
+## Run/Debug Configurations
+- debug-development
+- release-staging
+- release-production
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Android
+- buildTypes
+  - release
+  - debug
+- productFlavors
+  - development　
+  - staging
+  - production
+ 
+## iOS
+- Debug (debug-development)
+- Staging (release-staging)
+- Production (release-production)
+ 
+# TODO
+- FirebaseのKeyファイルの扱い
+- Proguard-rules
+- 謎の調査
+  - iOSでcamera: ^0.5.7+3パッケージがたまにおかしくなる（{FLUTTER_SDK_PATH}/.pub-cache配下のcameraパッケージを削除したり、git cloneし直したり）
+  - iOSでビルドが遅い（camera、firebse系パッケージがあると特に。初回ビルド30分ぐらい？2回目以降も10分以上）
