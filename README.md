@@ -1,14 +1,14 @@
 # flutter_app123
 
-Flutterのビルド構成を自分なりのまとめるために作ったプロジェクト
-Dartのコードは前に作ったバーコード読取りアプリから適当に持ってきて、トップ画面が開くまでしか確認していないです。
+Flutterのビルド構成を自分なりのまとめるために作ったプロジェクト  
+Dartのコードは前に作ったバーコード読取りアプリから適当に持ってきて、トップ画面が開くまでしか確認していないです。  
 アプリとして正常に動作しないと思われます。
 
-## メモ
-Android Studio 3.6
-Flutter 1.12.13
+## 動作環境
+- Android Studio 3.6
+- Flutter 1.12.13
 
-Windows10、macOS Catalinaで動く想定
+- Windows10、macOS Catalina(10.15)で動く想定
 
 ## Run/Debug Configurations
 - debug-development
