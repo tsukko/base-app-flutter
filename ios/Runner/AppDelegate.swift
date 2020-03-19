@@ -8,9 +8,7 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
-    let controller: FlutterViewController = window?.rootViewController as! FlutterViewController
-    let methodChannel = FlutterMethodChannel(name: "com.tasogarei.test/camera", binaryMessenger: controller.binaryMessenger)
-
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
+
